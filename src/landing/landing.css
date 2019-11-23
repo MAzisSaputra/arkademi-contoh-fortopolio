@@ -23,7 +23,7 @@
  
 /** membuat  cover bacground image  **/
 .with-image{
-    background-image: url("../../src/storage/mac.jpg");
+    background-image: url("../storage/mac.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;   
