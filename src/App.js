@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Background from "./bali.png";
 import{
   BrowserRouter,
   Route,
@@ -10,34 +11,15 @@ import Landing from "./landing";
 class App extends Component {
   render(){
     return(
-      <BrowserRouter>
-      <Switch>
-        <Route path="/">
-          <Landing></Landing>
-        </Route>
-      </Switch>
-      </BrowserRouter>
+     <div>
+       <img src="image"></img>
+     </div>
     )
   }
 }
 // function App() {
 //   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
+
 //   );
 // }
 
