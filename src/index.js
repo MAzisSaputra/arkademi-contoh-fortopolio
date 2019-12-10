@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import "font-awesome/css/font-awesome.min.css";
 
-import Latihan from './Latihan';
+import Praktek from './Praktek';
 import * as serviceWorker from './serviceWorker';
 
 
-ReactDOM.render(<Latihan />, document.getElementById('root'));
+ReactDOM.render(<Praktek />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
